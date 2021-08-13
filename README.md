@@ -1,31 +1,15 @@
-# Tailwind JIT Starter React
+# 台鐵資訊查詢
 
-Feel free to use the sample code to setup tailwind with jit for your app. The project will act as a codebase for my [blog](http://savio.xyz/)
+使用 React, Axios, TailwindCSS, Bootstrap 完成的作品，能用簡單的條件快速查詢台鐵資訊
 
-## Setup
+## Demo:
 
-1. Clone repo
+https://train-info-search.vercel.app/
 
-```bash
-git clone https://github.com/saviomartin/tailwind-jit-starter-react.git
-```
+電腦版: 
 
-2. Install Packages
+![image](https://i.imgur.com/9zXL6DP.jpg)
 
-```bash
-npm i
-```
+手機版: 
 
-3. Watch Css
-
-```bash
-npm run watch:css
-```
-
-4. Start Server
-
-```bash
-npm start
-```
-
-I hope it works for you, feel free to star ⭐️ the repo. [Give Me a follow on Github](https://github.com/saviomartin)
+![image](https://i.imgur.com/B0mT5aR.jpg)
