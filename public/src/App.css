@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1 {
+  margin: 40px 0px;
+}
+
+.search {
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+.form-control {
+  width: 80%;
+}
+
+.searchTitle {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.hide {
+  display: none;
+}
+
+.error{
+  margin: 300px 0px;
+  font-size: 30px;
+}
+
+.tutorial {
+  padding: 60px 160px 0px 160px;;
+  text-align: initial;
+  font-size: 20px;
+}
+.tutorial ul {
+  list-style-type: none;
+  padding: 0px;
+}
+.tutorial ul li{
+  padding-left: 10px;
+}
+
+.list table {
+  margin: 20px auto;
+  width: 70%;
+}
+
+.list table thead tr th {
+  padding: 20px;
+}
+
+.list table tbody tr td {
+  padding: 10px;
+}
+
+.list table tbody tr:nth-child(odd) {
+  background-color: rgba(184, 184, 184, 0.25);
+}
+
+@media only screen and (max-width: 600px) {
+  #root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    font-size: 8px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .searchTitle {
+    font-size: 16px;
+  }
+  .list table thead tr th {
+    padding: 5px;
+  }
+  .list table tbody tr td {
+    padding: 10px 0px;
+  }
+  .list table {
+    width: 100%;
+  }
+  .tutorial {
+    padding: 40px;
+    font-size: 14px;
+  }
+  .error{
+    margin: 200px 0px;
+    font-size: 24px;
+  }
+  table {
+    font-size: 12px;
+  }
+}
